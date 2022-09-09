@@ -5,137 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Niket</title>
     <link rel="stylesheet" href="style.css">
-    <title>Component-Library</title>
 </head>
 
 <body>
-    <div class="intro">
-        <h1>This is niket UI Component Library</h1>
-        <p>Hii I am <b><i><u>Niket Kumar Mishra</u></i></b>, I am persuing <u>B.Tech</u> Computer Science. Now I am
-            making a component Library which would make all my projects looks good</p>
-    </div>
 
-    <hr>
+    <!-- NavBar  -->
 
-    <h2># typography</h2>
-    <div class="typography">
-        <h1>This is the biggest heading</h1>
-        <h2>This is the second biggest</h2>
-        <p>let me show you the normal Font. this is a paragraph.</p>
-        <p>The paragraph will have a <b>bold</b>, <i>italic</i>, <u>underline</u> and <q>quotation</q> tag</p>
-        <small>This is a small tag</small>
-    </div>
-
-    <hr>
-
-    <h1># Container</h1>
-    <div class="container">
-        <h2>Fluid Container</h2>
-        <p>This is a fluid container and it will go till the end of the page</p>
-        <h2>Center Container</h2>
-        <p>This is a centered container and this will go till the specified width</p>
-    </div>
-
-    <hr>
-
-    <h1># Lists</h1>
-    <div class="lists">
-        <div class="list-no-bullets">
-            <h2>Unordered list</h2>
-            <p>This List will not have the bullets</p>
-            <ul>
-                <li>List One</li>
-                <li>List Two</li>
-                <li>List Three</li>
-            </ul>
-        </div>
-        <div class="list-inline">
-            <h2>Unordered inline list</h2>
-            <ul>
-                <li>Item One</li>
-                <li>Item Two</li>
-                <li>Item Three</li>
-            </ul>
-        </div>
-        <div class="List-Reversed">
-            <h2>Reverse Ordered List</h2>
-            <ol reversed>
-                <li>List One</li>
-                <li>List Two</li>
-                <li>List Three</li>
-            </ol>
-        </div>
-    </div>
-
-    <hr>
-
-    <h2># NavBar</h2>
     <nav class="navbar">
         <div class="brand_name">Niket Kumar Mishra</div>
         <ul class="navlist">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li> <a class="link active-link" href="/">Home</a> </li>
+            <li><a class="link" href="/projects.html">Projects</a></li>
+            <li><a class="link" href="/blogs.html">Blogs</a></li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2># Sections</h2>
-    <div class="section">
-        <div class="section-white">
-            <h3>White Section</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laborum at beatae distinctio laudantium?
-                Blanditiis harum totam voluptatibus reprehenderit mollitia error optio repellat, perspiciatis
-                consectetur
-                aut
-                iure sed nisi rem.</p>
+    <header>
+        <div class="header">
+            <div class="img">
+                <img src="images/hero.svg" alt="Image">
+            </div>
+            <h3>I am Niket, Coder and <span class="bold">The Web Developer</span></h3>
         </div>
-        <div class="section-gray">
-            <h3>Non-White Section</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque est non perspiciatis voluptate magni
-                dolore
-                distinctio tempora hic quae recusandae nulla, error commodi odio ipsum voluptates dignissimos assumenda
-                nostrum
-                amet!</p>
+
+
+        <div class="section-gray section">
+            <h3>Technologies</h3>
+            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, ReactJS, Web Hosting, C, C++, Python etc.</p>
         </div>
-    </div>
 
-    <hr>
+        <div class="section-white section">
+            <h3>Projects</h3>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
 
-    <h2># Header</h2>
-    <div class="header">
-        <img src="images/hero.svg" alt="Image">
-        <h3>I am Niket, Coder and <span class="bold">The Web Developer</span></h3>
-    </div>
+            <div class="links">
+                <a class="link-primary" href="/projects.html">See Projects </a>
+            </div>
+        </div>
 
-    <hr>
-
-    <h2># Links</h2>
-    <div class="links">
-        <span class="link-primary"><a href="/">Primary Link</a></span>
-        <span class="link-secondary">
-            <a href="/">Secondary Link</a>
-        </span>
-    </div>
-
-    <hr>
+        <div class="section-gray section">
+            <h3>Blogs</h3>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.
+            </p>
+            <div class="links">
+                <a class="link-secondary" href="/blogs.html">Read Blogs </a>
+            </div>
+        </div>
+    </header>
 
 
-
-
-    <h2># Footer</h2>
     <footer>
         <div class="footer">
-            <h3>This is footer</h3>
+            <h3>Social Media Presents</h3>
             <ul>
-                <li>SocialOne</li>
-                <li>SocialTwo</li>
-                <li>SocialThree</li>
+                <li><a href="https://github.com/niketvns" target="_blank"><img src="/images/github.png" alt="Image"></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/niket-kumar-mishra-37ab5a215/" target="_blank"><img
+                            src="/images/linkedin.png" alt="Image"></a> </li>
+                <li><a href="https://twitter.com/Niketmishravns" target="_blank"><img src="/images/twitter.png"
+                            alt="Image"></a></li>
             </ul>
         </div>
     </footer>
+
+
 </body>
 
 </html>
