@@ -353,6 +353,15 @@ article {
         margin: 10px 20px 0px 20px;
     }
 
+    .article {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    article {
+        width: 100% !important;
+    }
+
     .img {
         width: 40vw;
         height: 8rem;
@@ -392,6 +401,11 @@ article {
 @media screen and (max-width: 750px) {
     article {
         width: 100%;
+    }
+
+    .article {
+        width: 90%;
+        margin: 30px auto;
     }
 }
 
