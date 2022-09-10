@@ -242,6 +242,10 @@
     color: white;
 }
 
+.btn {
+    min-width: 100px;
+}
+
 /* footer */
 
 footer {
@@ -273,11 +277,23 @@ footer {
 }
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 555px) {
     .navlist {
         list-style: none;
     }
 
+    .section {
+        margin: 30px 40px;
+        padding: 30px 30px;
+        border-radius: 10px;
+    }
+
+    .link-primary,
+    .link-secondary {
+        display: block;
+        max-width: 120px;
+        min-width: 80px;
+    }
 
     .navbar {
         width: 100%;
