@@ -319,8 +319,8 @@ article {
     .link-primary,
     .link-secondary {
         display: block;
-        max-width: 120px;
-        min-width: 110px;
+        max-width: 130px;
+        min-width: 120px;
     }
 
     .navbar {
