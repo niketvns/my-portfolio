@@ -140,6 +140,15 @@
     margin: 20px 0 10px 0;
 }
 
+.author {
+    text-align: center;
+    margin: 10px 80px 0px 80px;
+    padding: 20px 30px 0px 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* Header  */
 
@@ -274,6 +283,12 @@ footer {
 
 .footer li:hover {
     cursor: pointer;
+}
+
+article {
+    min-height: 58.7vh;
+    margin: 30px auto;
+    width: 70vw;
 }
 
 
