@@ -9,7 +9,8 @@
 }
 
 body {
-    background-color: #bae6fd;
+    /* background-color: #bae6fd; */
+    background-color: #A9D2FF;
 }
 
 /* Welcome Section  */
@@ -124,12 +125,14 @@ body {
 }
 
 .section-white {
-    background-color: white;
+    /* background-color: white; */
+    background-color: #bfdbfe;
 }
 
 .section-gray {
     /* background-color: #f2ebeb; */
-    background-color: #e5e5e5;
+    /* background-color: #e5e5e5; */
+    background-color: #9dc6f3;
 }
 
 .section small {
