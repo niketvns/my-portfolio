@@ -178,9 +178,6 @@
 
 .link {
     text-decoration: none;
-    /* padding: 10px;
-    margin: 10px;
-    font-size: large; */
     color: #e0f2fe;
     cursor: pointer;
 }
@@ -273,4 +270,24 @@ footer {
 
 .footer li:hover {
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 550px) {
+    .navlist {
+        list-style: none;
+    }
+
+
+    .navbar {
+        width: 100%;
+        padding: 20px;
+        margin: 0px;
+    }
+
+    .navlist li {
+        font-size: 1rem;
+        color: #e0f2fe;
+        cursor: pointer;
+    }
 }
