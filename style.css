@@ -325,6 +325,10 @@ article {
     footer {
         margin: 0 10px;
     }
+
+    .author {
+        margin: 10px 20px 0px 20px;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -345,13 +349,20 @@ article {
     .link-secondary {
         margin: 10px 0px;
     }
+}
 
-    @media screen and (max-width: 300px) {
-        .links {
-            margin: auto;
-        }
-
-        .navlist {
-            display: inline;
-        }
+@media screen and (max-width: 300px) {
+    .links {
+        margin: auto;
     }
+
+    .navlist {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    article {
+        width: 90vw;
+    }
+}
