@@ -59,7 +59,7 @@
     background-color: var(--primary-color);
     border-bottom-left-radius: 1rem;
     padding: 20px;
-    margin: 0px 80px;
+    margin: 0px 5rem;
 }
 
 .active-link {
@@ -283,7 +283,7 @@ footer {
     }
 
     .section {
-        margin: 30px 40px;
+        margin: 30px 2.6rem;
         padding: 30px 30px;
         border-radius: 10px;
     }
@@ -292,7 +292,7 @@ footer {
     .link-secondary {
         display: block;
         max-width: 120px;
-        min-width: 80px;
+        min-width: 110px;
     }
 
     .navbar {
@@ -311,3 +311,32 @@ footer {
         margin: 0 10px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    html {
+        font-size: 10px;
+    }
+
+    .footer {
+        margin: 0px;
+
+    }
+
+    footer ul {
+        margin: 0px;
+    }
+
+    .link-primary,
+    .link-secondary {
+        margin: 10px 0px;
+    }
+
+    @media screen and (max-width: 300px) {
+        .links {
+            margin: auto;
+        }
+
+        .navlist {
+            display: inline;
+        }
+    }
