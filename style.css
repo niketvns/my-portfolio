@@ -394,3 +394,9 @@ article {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 950px) {
+    article {
+        width: 80%;
+    }
+}
