@@ -306,4 +306,8 @@ footer {
         color: #e0f2fe;
         cursor: pointer;
     }
+
+    footer {
+        margin: 0 10px;
+    }
 }
