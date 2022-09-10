@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #bae6fd;
+}
+
 /* Welcome Section  */
 
 .intro,
@@ -64,6 +68,7 @@
 
 .active-link {
     font-weight: 600;
+    color: #a3e635 !important;
 }
 
 .navlist li:hover {
@@ -123,7 +128,8 @@
 }
 
 .section-gray {
-    background-color: #f2ebeb;
+    /* background-color: #f2ebeb; */
+    background-color: #e5e5e5;
 }
 
 .section small {
@@ -148,6 +154,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.article {
+    text-align: left;
+}
+
+.text {
+    font-size: 1.2rem !important;
 }
 
 /* Header  */
@@ -179,7 +193,6 @@
 
 .bold {
     color: var(--primary-color);
-    text-decoration: underline;
 }
 
 
@@ -328,6 +341,11 @@ article {
 
     .author {
         margin: 10px 20px 0px 20px;
+    }
+
+    .img {
+        width: 40vw;
+        height: 8rem;
     }
 }
 
