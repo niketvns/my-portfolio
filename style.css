@@ -1,5 +1,6 @@
 :root {
     --primary-color: #2563eb;
+    /* --primary-color: #2563eb; */
     --m-primary-color: #3b82f6;
 }
 
@@ -11,7 +12,8 @@
 
 body {
     /* background-color: #bae6fd; */
-    background-color: #A9D2FF;
+    /* background-color: #A9D2FF; */
+    background-color: #eff6ff;
 }
 
 /* Welcome Section  */
@@ -62,7 +64,8 @@ body {
 /* Navbar  */
 
 .navbar {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background: linear-gradient(#e66465, #9198e5);
     border-bottom-left-radius: 1rem;
     padding: 20px;
     margin: 0px 5rem;
@@ -127,7 +130,8 @@ body {
 
 .section-white {
     /* background-color: white; */
-    background-color: #bfdbfe;
+    /* background-color: #bfdbfe; */
+    background-color: #cbddf4;
 }
 
 .section-gray {
@@ -208,6 +212,15 @@ body {
     cursor: pointer;
 }
 
+.link-author {
+    text-decoration: none;
+    color: rgb(127, 3, 3);
+}
+
+.link-author:hover {
+    text-decoration: underline;
+}
+
 .links {
     margin: 30px;
 }
@@ -243,7 +256,8 @@ body {
 
 .link-primary:hover {
     border: 2px solid var(--primary-color);
-    background-color: white;
+    /* background-color: white; */
+    background: transparent;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -275,8 +289,10 @@ body {
 /* footer */
 
 footer {
-    background-color: var(--primary-color);
-    color: white;
+    /* background-color: var(--primary-color); */
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f6ac3c);
+    /* color: white; */
+    color: black;
     padding: 10px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
