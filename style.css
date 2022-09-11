@@ -327,9 +327,9 @@ article {
 
 @media screen and (max-width: 555px) {
 
-    .navbar {
+    /* .navbar {
         background-color: var(--m-primary-color);
-    }
+    } */
 
     .navlist {
         list-style: none;
@@ -362,7 +362,7 @@ article {
 
     footer {
         margin: 0 10px;
-        background-color: var(--m-primary-color);
+        /* background-color: var(--m-primary-color); */
     }
 
     .author {
