@@ -331,6 +331,10 @@ article {
         background-color: var(--m-primary-color);
     } */
 
+    html {
+        font-size: 12px;
+    }
+
     .navlist {
         list-style: none;
     }
@@ -345,7 +349,7 @@ article {
     .link-secondary {
         display: block;
         max-width: 130px;
-        min-width: 120px;
+        min-width: 100px;
     }
 
     .navbar {
