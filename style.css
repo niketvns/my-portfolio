@@ -175,15 +175,33 @@ body {
 /* Header  */
 
 .header {
-    padding: 20px;
+    padding: 20px 40px;
     margin: 60px auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    margin: 0px 30px;
+}
+
+.about h3 {
+    color: #475569;
+    font-size: 2rem !important;
+}
+
+.about p {
+    color: #475569 !important;
+    border-bottom: 2px solid #cbd5e1;
+    display: inline;
 }
 
 .img {
     width: 30vw;
     /* border: 2px solid black; */
-    margin: auto;
+    margin: 0px 20px;
     border-radius: 20px;
     padding: 10px;
     box-shadow: 5px 5px 25px -5px black;
@@ -203,6 +221,37 @@ body {
     color: var(--primary-color);
 }
 
+/* Technologies  */
+
+.tech-details {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ind-tech-detail:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    box-shadow: 2px 2px 25px -5px gray;
+}
+
+.ind-tech-detail {
+    background-color: #cbddf4;
+    border-radius: 10px;
+    padding: 1px 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.ind-tech-detail p {
+    margin: 0px !important;
+    font-size: 1.2rem;
+}
+
+.ind-tech-detail img {
+    width: 3rem;
+    height: 3rem;
+}
 
 /* Links */
 
@@ -223,7 +272,11 @@ body {
 
 .links {
     margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .link-primary {
     border: 2px solid var(--primary-color);
@@ -327,10 +380,6 @@ article {
 
 @media screen and (max-width: 555px) {
 
-    /* .navbar {
-        background-color: var(--m-primary-color);
-    } */
-
     html {
         font-size: 12px;
     }
@@ -384,8 +433,11 @@ article {
 
     .img {
         width: 40vw;
-        height: 8rem;
+        height: 10rem;
+        box-shadow: none;
     }
+
+
 }
 
 @media screen and (max-width: 360px) {
