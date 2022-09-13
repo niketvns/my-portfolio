@@ -388,10 +388,31 @@ article {
         list-style: none;
     }
 
+    .header {
+        padding: 20px !important;
+    }
+
+    .header h3 {
+        margin: 20px 0 0 0;
+    }
+
+    .header img {
+        width: 33vw;
+    }
+
+    .about {
+        margin: 0px 10px;
+        width: 50vw;
+    }
+
     .section {
-        margin: 30px 2.6rem;
-        padding: 30px 30px;
+        margin: 30px 2rem;
+        padding: 20px;
         border-radius: 10px;
+    }
+
+    .technology-section {
+        padding: 10px !important;
     }
 
     .link-primary,
@@ -408,7 +429,7 @@ article {
     }
 
     .navlist li {
-        font-size: 1rem;
+        font-size: 1.5rem;
         color: #e0f2fe;
         cursor: pointer;
     }
@@ -443,6 +464,12 @@ article {
 @media screen and (max-width: 360px) {
     html {
         font-size: 10px;
+    }
+
+    .navlist li {
+        font-size: 1.5rem;
+        color: #e0f2fe;
+        cursor: pointer;
     }
 
     .footer {
