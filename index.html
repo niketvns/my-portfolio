@@ -16,6 +16,7 @@
 
     <nav class="navbar">
         <div class="brand_name">Niket Kumar Mishra</div>
+        <div class="contact-nav"><a href="#contact">Contact</a></div>
         <ul class="navlist">
             <li> <a class="link active-link" href="/">Home</a> </li>
             <li><a class="link" href="/projects.html">Projects</a></li>
@@ -117,29 +118,31 @@
         </div>
 
         <div class="contact-form-desktop">
-            <div class="contact_heading">
+            <div class="contact_heading" id="contact">
                 <div class="contact-heading-inner">Contact me</div>
             </div>
             <div class="form">
-                <form action="">
+                <form action="https://formspree.io/f/mvoykedq" method="post">
                     <table>
                         <tr>
                             <td class="name_input">Name<span class="star">*</span> :</td>
-                            <td class=""><input type="text" autocomplete="OFF" required placeholder="Your Name"
-                                    name="name" id=""></td>
+                            <td class=""><input type="text" autocomplete="off" required placeholder="Your Name"
+                                    name="user_name" id=""></td>
                         </tr>
                         <tr>
                             <td class="name_input">Contact :</td>
-                            <td class=""><input type="number" placeholder="Mobile No. +91" name="phone" id=""></td>
+                            <td class=""><input type="number" autocomplete="off" placeholder="Mobile No. +91"
+                                    name="phone" id=""></td>
                         </tr>
                         <tr>
                             <td class="name_input">Email<span class="star">*</span> :</td>
-                            <td class=""><input type="text" required placeholder="email id" name="email" id=""></td>
+                            <td class=""><input type="text" autocomplete="off" required placeholder="email id"
+                                    name="email" id=""></td>
                         </tr>
                         <tr>
                             <td class="name_input">Message<span class="star">*</span> :</td>
-                            <td class=""><textarea name="message" required placeholder="Write Your Query..." id=""
-                                    cols="20" rows="3"></textarea></td>
+                            <td class=""><textarea name="message" autocomplete="off" required
+                                    placeholder="Write Your Query..." id="" cols="20" rows="3"></textarea></td>
                         </tr>
                     </table>
                     <div class="sub_btn_div">
