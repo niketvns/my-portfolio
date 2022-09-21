@@ -438,10 +438,10 @@ td textarea {
 .submit_btn {
     width: 96px;
     height: 48px;
-    background-color: rebeccapurple;
+    background-color: #9dc6f3;
     box-shadow: 0.5px 0.5px 5px black;
     border: none;
-    color: white;
+    color: black;
     font-size: 20px;
     border-radius: 20px;
     cursor: pointer;
@@ -450,6 +450,7 @@ td textarea {
 .submit_btn:hover {
     box-shadow: 2px 2px 10px black;
     transition: 0.2s;
+    transform: scale(0.93);
 }
 
 .contact-form-mobile {
@@ -599,7 +600,7 @@ article {
     }
 
     .my-location iframe {
-        width: 70vw;
+        width: 60%;
     }
 }
 
@@ -651,6 +652,11 @@ article {
 }
 
 @media screen and (max-width: 750px) {
+
+    .header {
+        width: 90%;
+    }
+
     article {
         width: 100%;
     }
@@ -669,6 +675,10 @@ article {
         border: 1px solid rgb(21, 145, 228);
         font-size: 17px;
         outline-color: rgb(0, 153, 255);
+    }
+
+    .my-location iframe {
+        width: 60%;
     }
 }
 
