@@ -59,6 +59,7 @@ body {
     top: 30px;
 }
 
+
 .contact-nav a {
     text-decoration: none;
     color: white;
@@ -71,6 +72,11 @@ body {
 
 .contact-nav:hover {
     transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.contact-nav:active {
+    transform: scale(0.8);
     transition: 0.2s;
 }
 
